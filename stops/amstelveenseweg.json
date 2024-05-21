@@ -1,0 +1,26 @@
+{
+  "id": "AMS-AVW",
+  "name": "Amstelveenseweg",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "GVB009",
+    "E2": "GVB010"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [
+        ["50", ["Gein", "Isolatorweg"]],
+        ["51", ["Centraal Station", "Isolatorweg"]]
+      ]
+    }
+  },
+  "exits": {
+    "EX1": "VU Medisch Centrum",
+    "EX2": "Olympisch Stadion"
+  },
+  "edges": {
+    "P1": ["E1", "E2"],
+    "EX1": ["E1", "EX2"],
+    "EX2": ["E2", "EX1"]
+  }
+}

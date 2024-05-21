@@ -1,0 +1,25 @@
+{
+  "id": "AMS-DMN",
+  "name": "Diemen",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "DMN-LIF-001",
+    "E2": "DMN-LIF-002"
+  },
+  "platforms": {
+    "P1": {
+      "trainPlatforms": [["1", "Southeast"]]
+    },
+    "P2": {
+      "trainPlatforms": [["2", "Northwest"]]
+    }
+  },
+  "exits": {
+    "EX1": "Ouddiemerlaan"
+  },
+  "edges": {
+    "P1": ["E1", "EX1"],
+    "P2": ["E2", "EX1"],
+    "EX1": ["E1", "E2"]
+  }
+}

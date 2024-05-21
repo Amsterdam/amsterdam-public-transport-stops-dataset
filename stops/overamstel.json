@@ -1,0 +1,31 @@
+{
+  "id": "AMS-OVA",
+  "name": "Overamstel",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "GVB002",
+    "E2": "GVB003"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [
+        ["50", "Isolatorweg"],
+        ["51", "Isolatorweg"]
+      ]
+    },
+    "P2": {
+      "lines": [
+        ["50", "Gein"],
+        ["51", "Centraal Station"]
+      ]
+    }
+  },
+  "exits": {
+    "EX1": "Willem Fenengastraat, Van Marwijk Kooystraat"
+  },
+  "edges": {
+    "P1": ["E1"],
+    "P2": ["E2"],
+    "EX1": ["E1", "E2"]
+  }
+}

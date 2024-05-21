@@ -1,0 +1,26 @@
+{
+  "id": "AMS-GEI",
+  "name": "Gein",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "NL0250557",
+    "E2": "NL0250556"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [
+        ["50", "Isolatorweg"],
+        ["54", "Centraal Station"]
+      ]
+    }
+  },
+  "exits": {
+    "EX1": "Wageningendreef",
+    "EX2": "Wisseloord"
+  },
+  "edges": {
+    "P1": ["E1", "E2"],
+    "EX1": ["E1", "EX2"],
+    "EX2": ["E2", "EX1"]
+  }
+}

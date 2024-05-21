@@ -1,0 +1,20 @@
+{
+  "id": "AMS-NPA",
+  "name": "Noorderpark",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "NL0250478"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [["52", ["Noord", "Zuid"]]]
+    }
+  },
+  "exits": {
+    "EX1": "Johan van Hasseltweg"
+  },
+  "edges": {
+    "P1": ["E1"],
+    "EX1": ["E1"]
+  }
+}

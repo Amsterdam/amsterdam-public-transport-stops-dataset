@@ -1,0 +1,22 @@
+{
+  "id": "AVE-SPO",
+  "name": "Sportlaan",
+  "city": "Amstelveen",
+  "elevators": {
+    "E1": "31720035"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [
+        ["25", ["Station Zuid", "Westwijk"]]
+      ]
+    }
+  },
+  "exits": {
+    "EX1": "Sportlaan"
+  },
+  "edges": {
+    "P1": ["E1"],
+    "EX1": ["E1"]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "AMS-LLL",
+  "name": "Lelylaan",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "GVB013",
+    "E2": "GVB014",
+    "E3": "ASDL-LIF-001"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [
+        ["50", ["Gein", "Isolatorweg"]],
+        ["51", ["Centraal Station", "Isolatorweg"]]
+      ]
+    },
+    "P2": {
+      "trainPlatforms": [
+        ["1", "South"],
+        ["2", "North"]
+      ]
+    }
+  },
+  "exits": {
+    "EX1": "Schipluidenlaan",
+    "EX2": "Johan Jongkindstraat, P+R"
+  },
+  "edges": {
+    "P1": ["E1", "E2"],
+    "P2": ["E3"],
+    "EX1": ["E1", "E3", "EX2"],
+    "EX2": ["E2", "EX1"]
+  }
+}

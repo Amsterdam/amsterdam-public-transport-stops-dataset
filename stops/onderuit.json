@@ -1,0 +1,23 @@
+{
+  "id": "AVE-OND",
+  "name": "Onderuit",
+  "city": "Amstelveen",
+  "elevators": {
+    "E1": "31720032"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [
+        ["5", ["Zoutkeetsgracht", "Amstelveen Stadshart"]],
+        ["25", ["Station Zuid", "Westwijk"]]
+      ]
+    }
+  },
+  "exits": {
+    "EX1": "Onderuit"
+  },
+  "edges": {
+    "P1": ["E1"],
+    "EX1": ["E1"]
+  }
+}

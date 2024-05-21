@@ -1,0 +1,31 @@
+{
+  "id": "AMS-ROK",
+  "name": "Rokin",
+  "city": "Amsterdam",
+  "stationLevels": {
+    "S1": "Stationshal",
+    "S2": "Stationshal"
+  },
+  "elevators": {
+    "E1": "NL0250485",
+    "E2": "NL0250486",
+    "E3": "NL0250487",
+    "E4": "NL0250488"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [["52", ["Noord", "Zuid"]]]
+    }
+  },
+  "exits": {
+    "EX1": "Spui, Amsterdam Museum",
+    "EX2": "Dam"
+  },
+  "edges": {
+    "S1": ["E1", "E4"],
+    "S2": ["E2", "E3"],
+    "P1": ["E3", "E4"],
+    "EX1": ["E2", "EX2"],
+    "EX2": ["E1", "EX1"]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "AMS-JVG",
+  "name": "Jan van Galenstraat",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "GVB016"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [
+        ["50", ["Gein", "Isolatorweg"]],
+        ["51", ["Centraal Station", "Isolatorweg"]]
+      ]
+    }
+  },
+  "exits": {
+    "EX1": "Jan van Galenstraat, OLVG West, Burgemeester Röellstraat"
+  },
+  "edges": {
+    "P1": ["E1"],
+    "EX1": ["E1"]
+  }
+}

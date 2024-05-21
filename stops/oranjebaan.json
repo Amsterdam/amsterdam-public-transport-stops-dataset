@@ -1,0 +1,23 @@
+{
+  "id": "AVE-ORA",
+  "name": "Oranjebaan",
+  "city": "Amstelveen",
+  "elevators": {
+    "E1": "31720033"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [
+        ["5", ["Zoutkeetsgracht", "Amstelveen Stadshart"]],
+        ["25", ["Station Zuid", "Westwijk"]]
+      ]
+    }
+  },
+  "exits": {
+    "EX1": "Meester G. Groen van Prinstererlaan"
+  },
+  "edges": {
+    "P1": ["E1"],
+    "EX1": ["E1"]
+  }
+}

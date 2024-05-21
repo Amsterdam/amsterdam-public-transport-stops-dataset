@@ -1,0 +1,23 @@
+{
+  "id": "AVE-UIL",
+  "name": "Uilenstede",
+  "city": "Amstelveen",
+  "elevators": {
+    "E1": "31720029"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [
+        ["5", ["Zoutkeetsgracht", "Amstelveen Stadshart"]],
+        ["25", ["Station Zuid", "Westwijk"]]
+      ]
+    }
+  },
+  "exits": {
+    "EX1": "Uilenstede"
+  },
+  "edges": {
+    "P1": ["E1"],
+    "EX1": ["E1"]
+  }
+}

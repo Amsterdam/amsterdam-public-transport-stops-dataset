@@ -1,0 +1,37 @@
+{
+  "id": "AMS-EUR",
+  "name": "Europaplein",
+  "city": "Amsterdam",
+  "stationLevels": {
+    "S1": "Stationshal 1",
+    "S2": "Stationshal 2"
+  },
+  "elevators": {
+    "E1": "NL0250500",
+    "E2": "NL0250499",
+    "E3": "NL0250498",
+    "E4": "NL0250497",
+    "E5": "NL0250496",
+    "E6": "NL0250495"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [["52", "Noord"]]
+    },
+    "P2": {
+      "lines": [["52", "Zuid"]]
+    }
+  },
+  "exits": {
+    "EX1": "Europaplein, RAI Convention Centre",
+    "EX2": "Scheldeplein"
+  },
+  "edges": {
+    "S1": ["E3", "E4", "E5"],
+    "S2": ["E1", "E2", "E6"],
+    "P1": ["E1", "E3"],
+    "P2": ["E2", "E4"],
+    "EX1": ["E5", "EX2"],
+    "EX2": ["E6", "EX1"]
+  }
+}

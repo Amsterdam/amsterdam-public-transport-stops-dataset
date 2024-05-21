@@ -1,0 +1,157 @@
+{
+  "id": "AMS-CEN",
+  "name": "Centraal Station",
+  "city": "Amsterdam",
+  "stationLevels": {
+    "S1": "Stationshal",
+    "S2": "IJhal",
+    "S3": "Westtunnel",
+    "S4": "IJpassage",
+    "S5": "Amstelpassage",
+    "S6": "Oosttunnel",
+    "S7": "Metrohal Centrum Stationsplein",
+    "S8": "Metrohal Prins Hendrikkade",
+    "S9": "Metrohal IJ-zijde"
+  },
+  "elevators": {
+    "E1": "ASD-INV-001",
+    "E2": "ASD-INV-002",
+    "E3": "ASD-LIF-005",
+    "E4": "ASD-LIF-006",
+    "E5": "ASD-LIF-007",
+    "E6": "ASD-LIF-008",
+    "E7": "ASD-LIF-009",
+    "E8": "ASD-LIF-010",
+    "E9": "ASD-LIF-011",
+    "E10": "ASD-LIF-012",
+    "E11": "ASD-LIF-013",
+    "E12": "ASD-LIF-014",
+    "E13": "ASD-LIF-015",
+    "E14": "NL0250479",
+    "E15": "NL0250480",
+    "E16": "NL0250481",
+    "E17": "NL0250482",
+    "E18": "NL0250483",
+    "E19": "NL0250484",
+    "E20": "NL0250561",
+    "E21": "NL0250562",
+    "E22": "NL0250563",
+    "E23": "NL-030059-01",
+    "E24": "NL-030059-02"
+  },
+  "platforms": {
+    "P1": {
+      "trainPlatforms": [
+        ["1", "West"],
+        ["2a", "West"],
+        ["2b", "East"]
+      ]
+    },
+    "P2": {
+      "trainPlatforms": [
+        ["4", "East"],
+        ["4b", "East"],
+        ["5a", "West"],
+        ["5b", "East"]
+      ]
+    },
+    "P3": {
+      "trainPlatforms": [
+        ["7", "West"],
+        ["7a", "West"],
+        ["8", ""]
+      ]
+    },
+    "P4": {
+      "trainPlatforms": [
+        ["10a", "East"],
+        ["10b", "East"],
+        ["11a", "West"],
+        ["11b", "East"]
+      ]
+    },
+    "P5": {
+      "trainPlatforms": [
+        ["13a", "West"],
+        ["13b", "East"],
+        ["14a", "West"],
+        ["14b", "West"]
+      ]
+    },
+    "P6": {
+      "trainPlatforms": [["15", "West"]]
+    },
+    "P7": {
+      "lines": [["52", "Zuid"]]
+    },
+    "P8": {
+      "lines": [["52", "Noord"]]
+    },
+    "P9": {
+      "lines": [
+        ["51", "Isolatorweg"],
+        ["53", "Gaasperplas"],
+        ["54", "Gein"]
+      ]
+    },
+    "P10": {
+      "busplatforms": [
+        [
+          "18",
+          "21",
+          "22",
+          "43",
+          "48",
+          "N81",
+          "N82",
+          "N83",
+          "N84",
+          "N85",
+          "N86",
+          "N87",
+          "N88",
+          "N89",
+          "N91",
+          "N93"
+        ]
+      ]
+    },
+    "P11": {
+      "tramPlatforms": [["2", "12", "13", "17"]]
+    },
+    "P12": {
+      "tramPlatforms": [["4", "14", "24", "26"]]
+    }
+  },
+  "exits": {
+    "EX1": "Centrum Stationsplein",
+    "EX2": "IJ-zijde",
+    "EX3": "Prins Hendrikkade, Kamperbrug"
+  },
+  "edges": {
+    "S1": ["S3", "S6", "E1", "E2", "EX1"],
+    "S2": ["S3", "S4", "S5", "S6", "E23", "E24", "EX2"],
+    "S3": ["S1", "S2", "E3", "E4", "E5", "E6", "E7"],
+    "S4": ["S2", "S5", "E1"],
+    "S5": ["S2", "S4", "E2"],
+    "S6": ["S1", "S2", "E8", "E9", "E10", "E11", "E12", "E13"],
+    "S7": ["E16", "E17", "E18", "E19", "E20"],
+    "S8": ["E21", "E22"],
+    "S9": ["E14", "E15", "E24"],
+    "P1": ["E8"],
+    "P2": ["E3", "E9"],
+    "P3": ["E4", "E10"],
+    "P4": ["E5", "E11"],
+    "P5": ["E6", "E12"],
+    "P6": ["E7", "E13"],
+    "P7": ["E14", "E17"],
+    "P8": ["E15", "E18"],
+    "P9": ["E20", "E22"],
+    "P10": ["E23", "E24"],
+    "P11": ["EX1"],
+    "P12": ["EX1"],
+    "EX1": ["S1", "P11", "P12", "E16", "E19", "EX2", "EX3"],
+    "EX2": ["S2", "EX1", "EX3"],
+    "EX3": ["E21", "EX1", "EX3"]
+  }
+}

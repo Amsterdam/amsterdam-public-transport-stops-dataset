@@ -1,0 +1,39 @@
+{
+  "id": "AMS-RAI",
+  "name": "RAI",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "RAI-LIF-001",
+    "E2": "RAI-LIF-002",
+    "E3": "GVB004"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [
+        ["50", ["Isolatorweg", "Gein"]],
+        ["51", ["Isolatorweg", "Centraal Station"]]
+      ]
+    },
+    "P2": {
+      "trainPlatforms": [
+        ["1", "East"],
+        ["2", "East"]
+      ]
+    },
+    "P3": {
+      "trainPlatforms": [
+        ["3", "West"],
+        ["4", "West"]
+      ]
+    }
+  },
+  "exits": {
+    "EX1": "RAI Convention Center"
+  },
+  "edges": {
+    "P1": ["E3"],
+    "P2": ["E2"],
+    "P3": ["E1"],
+    "EX1": ["E1", "E2", "E3"]
+  }
+}

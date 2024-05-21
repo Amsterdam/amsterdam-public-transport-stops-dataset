@@ -1,0 +1,61 @@
+{
+  "id": "AMS-ZUI",
+  "name": "Zuid",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "GVB006",
+    "E2": "GVB007",
+    "E3": "ASZD-LIF-002",
+    "E4": "ASZD-LIF-003",
+    "E5": "L080214"
+  },
+  "platforms": {
+    "P1": {
+      "trainPlatforms": [
+        ["1", "East"],
+        ["2", "East"]
+      ]
+    },
+    "P2": {
+      "trainPlatforms": [
+        ["3", "West"],
+        ["4", "West"]
+      ]
+    },
+    "P3": {
+      "lines": [
+        ["50", "Isolatorweg"],
+        ["51", "Isolatorweg"]
+      ]
+    },
+    "P4": {
+      "lines": [["52", "Noord"]]
+    },
+    "P5": {
+      "lines": [
+        ["50", "Gein"],
+        ["51", "Centraal Station"]
+      ]
+    },
+    "P6": {
+      "tramPlatforms": [
+        ["5", ["Amstelveenm Stadshart", "Zoutkeetsgracht"]],
+        ["25", "Westwijk"]
+      ]
+    }
+  },
+  "exits": {
+    "EX1": "Mahlerplein",
+    "EX2": "Zuidplein"
+  },
+  "edges": {
+    "P1": ["E4"],
+    "P2": ["E3"],
+    "P3": ["E1", "P4", "P5"],
+    "P4": ["P3", "P5"],
+    "P5": ["E2", "P3", "P4"],
+    "P6": ["EX1", "EX2", "E5"],
+    "EX1": ["E1", "E2", "E3", "E4", "E5", "EX2"],
+    "EX2": ["E1", "E2", "E3", "E4", "E5", "EX1"]
+  }
+}

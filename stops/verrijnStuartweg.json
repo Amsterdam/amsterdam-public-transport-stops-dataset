@@ -1,0 +1,20 @@
+{
+  "id": "AMS-VST",
+  "name": "Verrijn Stuartweg",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "NL0250554"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [["53", ["Centraal Station", "Gaasperplas"]]]
+    }
+  },
+  "exits": {
+    "EX1": "Bedrijventerrein Verrijn Stuart, Bergwijkpark, Eekholt"
+  },
+  "edges": {
+    "P1": ["E1"],
+    "EX1": ["E1"]
+  }
+}

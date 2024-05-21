@@ -1,0 +1,25 @@
+{
+  "id": "AMS-ASP",
+  "name": "Science Park",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "ASSP-LIF-001",
+    "E2": "ASSP-LIF-002"
+  },
+  "platforms": {
+    "P1": {
+      "trainPlatforms": [["1", "Southeast"]]
+    },
+    "P2": {
+      "trainPlatforms": [["2", "Northwest"]]
+    }
+  },
+  "exits": {
+    "EX1": "Watergraafsmeer"
+  },
+  "edges": {
+    "P1": ["E1"],
+    "P2": ["E2"],
+    "EX1": ["E1", "E2"]
+  }
+}

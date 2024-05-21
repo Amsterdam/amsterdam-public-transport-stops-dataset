@@ -1,0 +1,33 @@
+{
+  "id": "AMS-PIJ",
+  "name": "De Pijp",
+  "city": "Amsterdam",
+  "stationLevels": {
+    "S1": "Stationshal"
+  },
+  "elevators": {
+    "E1": "NL0250491",
+    "E2": "NL0250492",
+    "E3": "NL0250493",
+    "E4": "NL0250494"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [["52", "Noord"]]
+    },
+    "P2": {
+      "lines": [["52", "Zuid"]]
+    }
+  },
+  "exits": {
+    "EX1": "Albert Cuypmarkt, Museumplein",
+    "EX2": "Ceintuurbaan"
+  },
+  "edges": {
+    "S1": ["E1", "E2", "E3", "E4"],
+    "P1": ["E2", "E3"],
+    "P2": ["E2", "E3"],
+    "EX1": ["E4", "EX2"],
+    "EX2": ["E1", "EX1"]
+  }
+}

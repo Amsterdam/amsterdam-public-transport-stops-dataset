@@ -1,0 +1,39 @@
+{
+  "id": "AMS-SHL",
+  "name": "Schiphol",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "SHL-LIF-001",
+    "E2": "SHL-LIF-002",
+    "E3": "SHL-LIF-003"
+  },
+  "platforms": {
+    "P1": {
+      "trainPlatforms": [
+        ["1", "Northeast"],
+        ["2", "Northeast"]
+      ]
+    },
+    "P2": {
+      "trainPlatforms": [
+        ["3", "Northeast"],
+        ["4", "Southwest"]
+      ]
+    },
+    "P3": {
+      "trainPlatforms": [
+        ["5", "Southwest"],
+        ["6", "Southwest"]
+      ]
+    }
+  },
+  "exits": {
+    "EX1": "Schiphol Plaza"
+  },
+  "edges": {
+    "P1": ["E1"],
+    "P2": ["E2"],
+    "P3": ["E3"],
+    "EX1": ["E1", "E2", "E3"]
+  }
+}

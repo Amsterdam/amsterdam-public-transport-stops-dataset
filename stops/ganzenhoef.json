@@ -1,0 +1,20 @@
+{
+  "id": "AMS-GAN",
+  "name": "Ganzenhoef",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "GVB001"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [["53", ["Centraal Station", "Gaasperplas"]]]
+    }
+  },
+  "exits": {
+    "EX1": "Bijlmerdreef, Elsrijkdreef, Grubbehoeve"
+  },
+  "edges": {
+    "P1": ["E1"],
+    "EX1": ["E1"]
+  }
+}

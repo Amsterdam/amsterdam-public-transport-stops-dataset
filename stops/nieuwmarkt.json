@@ -1,0 +1,35 @@
+{
+  "id": "AMS-NIE",
+  "name": "Nieuwmarkt",
+  "city": "Amsterdam",
+  "stationLevels": {
+    "S1": "Stationshal",
+    "S2": "Stationshal"
+  },
+  "elevators": {
+    "E1": "NL0250572",
+    "E2": "NL0250571",
+    "E3": "NL0250570",
+    "E4": "NL0250569"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [
+        ["51", ["Centraal Station", "Isolatorweg"]],
+        ["53", ["Centraal Station", "Gaasperplas"]],
+        ["54", ["Centraal Station", "Gein"]]
+      ]
+    }
+  },
+  "exits": {
+    "EX1": "Nieuwe Hoogstraat, Dam",
+    "EX2": "Nieuwmarkt"
+  },
+  "edges": {
+    "S1": ["E2", "E4"],
+    "S2": ["E1", "E3"],
+    "P1": ["E1", "E2"],
+    "EX1": ["E3", "EX2"],
+    "EX2": ["E4", "EX1"]
+  }
+}

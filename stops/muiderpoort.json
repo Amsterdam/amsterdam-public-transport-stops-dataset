@@ -1,0 +1,27 @@
+{
+  "id": "AMS-MDP",
+  "name": "Muiderpoort",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "ASDM-LIF-001",
+    "E2": "ASDM-LIF-002"
+  },
+  "platforms": {
+    "P1": {
+      "trainPlatforms": [["2", "Southeast"], ["3", "North"]]
+    },
+    "P2": {
+      "trainPlatforms": [["8", "North"], ["9", "Southwest"]]
+    }
+  },
+  "exits": {
+    "EX1": "Indische Buurt",
+    "EX2": "Dapperbuurt"
+  },
+  "edges": {
+    "P1": ["E1"],
+    "P2": ["E2"],
+    "EX1": ["E1", "E2", "EX2"],
+    "EX2": ["E1", "E2", "EX1"]
+  }
+}

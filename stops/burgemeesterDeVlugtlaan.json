@@ -1,0 +1,23 @@
+{
+  "id": "AMS-DVL",
+  "name": "Burgemeester De Vlugtlaan",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "GVB017"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [
+        ["50", ["Gein", "Isolatorweg"]],
+        ["51", ["Centraal Station", "Isolatorweg"]]
+      ]
+    }
+  },
+  "exits": {
+    "EX1": "Burgemeester De Vlugtlaan, Bos en Lommerweg"
+  },
+  "edges": {
+    "P1": ["E1"],
+    "EX1": ["E1"]
+  }
+}

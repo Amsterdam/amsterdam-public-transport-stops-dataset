@@ -1,0 +1,20 @@
+{
+  "id": "AMS-KRA",
+  "name": "Kraaiennest",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "11296616"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [["53", ["Centraal Station", "Gaasperplas"]]]
+    }
+  },
+  "exits": {
+    "EX1": "Kruilberg, Karspeldreef, Kromrijkdreef"
+  },
+  "edges": {
+    "P1": ["E1"],
+    "EX1": ["E1"]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "AMS-RBO",
+  "name": "Reigersbos",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "NL0250553",
+    "E2": "GVB005"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [
+        ["50", ["Isolatorweg", "Gein"]],
+        ["54", ["Centraal Station", "Gein"]]
+      ]
+    }
+  },
+  "exits": {
+    "EX1": "Ravensteinstraat",
+    "EX2": "Reigersbos"
+  },
+  "edges": {
+    "P1": ["E1", "E2"],
+    "EX1": ["E1", "EX2"],
+    "EX2": ["E2", "EX1"]
+  }
+}

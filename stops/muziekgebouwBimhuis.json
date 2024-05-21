@@ -1,0 +1,30 @@
+{
+  "id": "AMS-MGB",
+  "name": "Muziekgebouw, Bimhuis",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "GVB021"
+  },
+  "platforms": {
+    "P1": {
+      "tramPlatforms": [
+        ["26", "IJburg"]
+      ]
+    },
+    "P2": {
+      "tramPlatforms": [
+        ["26", "Centraal Station"]
+      ]
+    }
+  },
+  "exits": {
+    "EX1": "Piet Heinkade",
+    "EX2": "Dijksgracht"
+  },
+  "edges": {
+    "P1": ["E1", "P2", "EX1"],
+    "P2": ["P1", "EX1"],
+    "EX1": ["P1", "P2"],
+    "EX2": ["E1"]
+  }
+}

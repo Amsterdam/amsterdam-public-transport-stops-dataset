@@ -1,0 +1,23 @@
+{
+  "id": "AMS-SVL",
+  "name": "Strandvliet",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "NL0250552"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [
+        ["50", ["Isolatorweg", "Gein"]],
+        ["54", ["Centraal Station", "Gein"]]
+      ]
+    }
+  },
+  "exits": {
+    "EX1": "Boris Pasternakstraat (193-593), ArenA Boulevard"
+  },
+  "edges": {
+    "P1": ["E1"],
+    "EX1": ["E1"]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "AMS-RLP",
+  "name": "Rietlandpark",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "GVB019",
+    "E2": "GVB020"
+  },
+  "platforms": {
+    "P1": {
+      "tramPlatforms": [
+        ["26", "IJburg"]
+      ]
+    },
+    "P2": {
+      "tramPlatforms": [
+        ["26", "Centraal Station"]
+      ]
+    }
+  },
+  "exits": {
+    "EX1": "Piet Heinkade",
+    "EX2": "Rietlandpark"
+  },
+  "edges": {
+    "P1": ["E1"],
+    "P2": ["E2"],
+    "EX1": ["E1, E2, EX2"],
+    "EX2": ["E1, E2, EX1"]
+  }
+}

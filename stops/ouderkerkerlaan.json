@@ -1,0 +1,22 @@
+{
+  "id": "AVE-OKL",
+  "name": "Ouderkerkerlaan",
+  "city": "Amstelveen",
+  "elevators": {
+    "E1": "31720034"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [
+        ["25", ["Station Zuid", "Westwijk"]]
+      ]
+    }
+  },
+  "exits": {
+    "EX1": "Laan van Lagerhuize"
+  },
+  "edges": {
+    "P1": ["E1"],
+    "EX1": ["E1"]
+  }
+}

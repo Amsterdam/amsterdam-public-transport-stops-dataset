@@ -1,0 +1,20 @@
+{
+  "id": "AMS-KRA",
+  "name": "Gaasperplas",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "NL0250558"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [["53", "Centraal Station"]]
+    }
+  },
+  "exits": {
+    "EX1": "Gaasperpark, Gaasperdammerpad"
+  },
+  "edges": {
+    "P1": ["E1"],
+    "EX1": ["E1"]
+  }
+}

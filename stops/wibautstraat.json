@@ -1,0 +1,32 @@
+{
+  "id": "AMS-WIB",
+  "name": "Wibautstraat",
+  "city": "Amsterdam",
+  "stationLevels": {
+    "S1": "Stationshal"
+  },
+  "elevators": {
+    "E1": "NL0250566",
+    "E2": "NL0250565",
+    "E3": "NL0250564"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [
+        ["51", ["Centraal Station", "Isolatorweg"]],
+        ["53", ["Centraal Station", "Gaasperplas"]],
+        ["54", ["Centraal Station", "Gein"]]
+      ]
+    }
+  },
+  "exits": {
+    "EX1": "Tweede Oosterparkstraat, OLVG Oost",
+    "EX2": "Grensstraat"
+  },
+  "edges": {
+    "S1": ["E1", "E2", "E3"],
+    "P1": ["E3"],
+    "EX1": ["E1", "EX2"],
+    "EX2": ["E2", "EX1"]
+  }
+}

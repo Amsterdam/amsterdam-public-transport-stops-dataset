@@ -1,0 +1,23 @@
+{
+  "id": "AMS-HSS",
+  "name": "Heemstedestraat",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "GVB012"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [
+        ["50", ["Gein", "Isolatorweg"]],
+        ["51", ["Centraal Station", "Isolatorweg"]]
+      ]
+    }
+  },
+  "exits": {
+    "EX1": "Heemstedestraat, Antonie van Leeuwenhoek, Plesmanlaan, Witgensteinlaan"
+  },
+  "edges": {
+    "P1": ["E1"],
+    "EX1": ["E1"]
+  }
+}

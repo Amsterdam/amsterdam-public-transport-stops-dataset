@@ -1,0 +1,36 @@
+{
+  "id": "AMS-HOL",
+  "name": "Holendrecht",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "NL0250551",
+    "E2": "NL0250550",
+    "E3": "ASHD-LIF-001",
+    "E4": "ASHD-LIF-002"
+  },
+  "platforms": {
+    "P1": {
+      "trainPlatforms": [["2", "North"]]
+    },
+    "P2": {
+      "lines": [
+        ["50", ["Isolatorweg", "Gein"]],
+        ["54", ["Centraal Station", "Gein"]]
+      ]
+    },
+    "P3": {
+      "trainPlatforms": [["5", "South"]]
+    }
+  },
+  "exits": {
+    "EX1": "Meibergpad, Academisch Medisch Centrum",
+    "EX2": "Nigtevechthof"
+  },
+  "edges": {
+    "P1": ["E3"],
+    "P2": ["E1", "E2"],
+    "P3": ["E4"],
+    "EX1": ["E1", "E3", "E4", "EX2"],
+    "EX2": ["E2", "EX1"]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "AMS-NOO",
+  "name": "Noord",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "NL0250476",
+    "E2": "NL0250477"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [["52", ["Noord", "Zuid"]]]
+    }
+  },
+  "exits": {
+    "EX1": "Termini",
+    "EX2": "Gare Du Nord"
+  },
+  "edges": {
+    "P1": ["E1", "E2"],
+    "EX1": ["E2", "EX2"],
+    "EX2": ["E1", "EX1"]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "AVE-MEE",
+  "name": "Meent",
+  "city": "Amstelveen",
+  "elevators": {
+    "E1": "31720036"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [
+        ["25", ["Station Zuid", "Westwijk"]]
+      ]
+    }
+  },
+  "exits": {
+    "EX1": "Orion"
+  },
+  "edges": {
+    "P1": ["E1"],
+    "EX1": ["E1"]
+  }
+}

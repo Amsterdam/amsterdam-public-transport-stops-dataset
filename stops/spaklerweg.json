@@ -1,0 +1,33 @@
+{
+  "id": "AMS-SPA",
+  "name": "Spaklerweg",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "NL0250581",
+    "E2": "NL0250582"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [
+        ["51", "Centraal Station"],
+        ["53", "Centraal Station"],
+        ["54", "Centraal Station"]
+      ]
+    },
+    "P2": {
+      "lines": [
+        ["51", "Isolatorweg"],
+        ["53", "Gaasperplas"],
+        ["54", "Gein"]
+      ]
+    }
+  },
+  "exits": {
+    "EX1": "Wenckbachweg, Spaklerweg"
+  },
+  "edges": {
+    "P1": ["E2"],
+    "P2": ["E1"],
+    "EX1": ["E1", "E2"]
+  }
+}

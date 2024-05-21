@@ -1,0 +1,23 @@
+{
+  "id": "AMS-ISL",
+  "name": "Isolatorweg",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "GVB018"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [
+        ["50", "Gein"],
+        ["51", "Centraal Station"]
+      ]
+    }
+  },
+  "exits": {
+    "EX1": "Isolatorweg, Zekeringstraat"
+  },
+  "edges": {
+    "P1": ["E1"],
+    "EX1": ["E1"]
+  }
+}

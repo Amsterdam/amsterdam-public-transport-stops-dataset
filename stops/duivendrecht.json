@@ -1,0 +1,41 @@
+{
+  "id": "AMS-DVD",
+  "name": "Duivendrecht",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "DVD-LIF-001",
+    "E2": "DVD-LIF-002",
+    "E3": "DVD-LIF-003"
+  },
+  "platforms": {
+    "P1": {
+      "trainPlatforms": [
+        ["1", "East"],
+        ["4", "West"]
+      ]
+    },
+    "P2": {
+      "lines": [
+        ["50", "Gein"],
+        ["54", "Gein"]
+      ],
+      "trainPlatforms": [["8", "South"]]
+    },
+    "P3": {
+      "lines": [
+        ["50", "Isolatorweg"],
+        ["54", "Centraal Station"]
+      ],
+      "trainPlatforms": [["5", "North"]]
+    }
+  },
+  "exits": {
+    "EX1": "Stationsplein ArenA"
+  },
+  "edges": {
+    "P1": ["E1", "E2", "E3"],
+    "P2": ["E3"],
+    "P3": ["E2"],
+    "EX1": ["E1"]
+  }
+}

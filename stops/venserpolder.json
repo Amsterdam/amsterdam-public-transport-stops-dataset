@@ -1,0 +1,20 @@
+{
+  "id": "AMS-VEN",
+  "name": "Venserpolder",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "NL0250573"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [["53", ["Centraal Station", "Gaasperplas"]]]
+    }
+  },
+  "exits": {
+    "EX1": "Duivendrecht, Dalsteindreef"
+  },
+  "edges": {
+    "P1": ["E1"],
+    "EX1": ["E1"]
+  }
+}

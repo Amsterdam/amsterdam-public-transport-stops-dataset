@@ -1,0 +1,23 @@
+{
+  "id": "AMS-HSN",
+  "name": "Henk Sneevlietweg",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "GVB011"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [
+        ["50", ["Gein", "Isolatorweg"]],
+        ["51", ["Centraal Station", "Isolatorweg"]]
+      ]
+    }
+  },
+  "exits": {
+    "EX1": "Henk Sneevlietweg"
+  },
+  "edges": {
+    "P1": ["E1"],
+    "EX1": ["E1"]
+  }
+}

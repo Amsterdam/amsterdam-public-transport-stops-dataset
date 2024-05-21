@@ -1,0 +1,23 @@
+{
+  "id": "AMS-PJW",
+  "name": "Postjesweg",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "GVB015"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [
+        ["50", ["Gein", "Isolatorweg"]],
+        ["51", ["Centraal Station", "Isolatorweg"]]
+      ]
+    }
+  },
+  "exits": {
+    "EX1": "Postjesweg, Robert Fruinlaan"
+  },
+  "edges": {
+    "P1": ["E1"],
+    "EX1": ["E1"]
+  }
+}

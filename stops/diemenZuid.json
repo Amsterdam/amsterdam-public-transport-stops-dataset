@@ -1,0 +1,31 @@
+{
+  "id": "AMS-VEN",
+  "name": "Venserpolder",
+  "city": "Amsterdam",
+  "elevators": {
+    "E1": "NL0250560",
+    "E2": "NL0250559",
+    "E3": "DMNZ-LIF-001"
+  },
+  "platforms": {
+    "P1": {
+      "lines": [["53", ["Centraal Station", "Gaasperplas"]]]
+    },
+    "P2": {
+      "trainPlatforms": [
+        ["1", "East"],
+        ["2", "West"]
+      ]
+    }
+  },
+  "exits": {
+    "EX1": "Scholeksterpad",
+    "EX2": "Roerdomppad"
+  },
+  "edges": {
+    "P1": ["E1", "E2"],
+    "P2": ["E3"],
+    "EX1": ["E2", "E3"],
+    "EX2": ["E1"]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "AMS-STD",
+  "name": "Sloterdijk",
+  "city": "Amsterdam",
+  "stationLevels": {
+    "S1": "Stationshal",
+    "S2": "Stationshal p9/10"
+  },
+  "elevators": {
+    "E1": "ASS-LIF-001",
+    "E2": "ASS-LIF-002",
+    "E3": "ASS-LIF-003",
+    "E4": "ASS-LIF-004",
+    "E5": "ASS-LIF-005",
+    "E6": "ASS-LIF-006",
+    "E7": "GVB008",
+    "E8": "ASS-LIF-008"
+  },
+  "platforms": {
+    "P1": {
+      "trainPlatforms": [["9", "West"]]
+    },
+    "P2": {
+      "trainPlatforms": [
+        ["7", "West"],
+        ["8", "East"]
+      ]
+    },
+    "P3": {
+      "trainPlatforms": [
+        ["5", "East"],
+        ["6", "East"]
+      ]
+    },
+    "P4": {
+      "trainPlatforms": [
+        ["3", "West"],
+        ["4", "West"]
+      ]
+    },
+    "P5": {
+      "trainPlatforms": [
+        ["11", "South"],
+        ["12", "North"]
+      ]
+    },
+    "P6": {
+      "lines": [
+        ["50", ["Gein", "Isolatorweg"]],
+        ["51", ["Centraal Station", "Isolatorweg"]]
+      ]
+    },
+    "P7": {
+      "busplatforms": [
+        [
+          "15",
+          "22",
+          "36",
+          "61",
+          "125",
+          "231",
+          "232",
+          "233",
+          "309",
+          "369",
+          "382",
+          "395",
+          "810",
+          "813",
+          "N75"
+        ]
+      ],
+      "tramPlatforms": [["19", "Diemen Sniep"]]
+    }
+  },
+  "exits": {
+    "EX1": "Orlyplein",
+    "EX2": "Changiweg",
+    "EX3": "Hatostraat",
+    "EX4": "Carrascoplein"
+  },
+  "edges": {
+    "S1": ["EX1", "EX2", "EX4", "E1", "E2", "E3", "E4", "E5", "E6"],
+    "S2": ["EX1", "E7"],
+    "P1": ["E8"],
+    "P2": ["E3"],
+    "P3": ["E2"],
+    "P4": ["E1"],
+    "P5": ["E2"],
+    "P6": ["E4"],
+    "P7": ["E6", "E7", "EX2", "EX4"],
+    "EX1": ["S1", "S2", "E7", "EX2", "EX4"],
+    "EX2": ["E6", "E7", "P7", "EX1", "EX4"],
+    "EX3": ["E5", "EX1"],
+    "EX4": ["E6", "E7", "P7", "EX1", "EX2"]
+  }
+}
